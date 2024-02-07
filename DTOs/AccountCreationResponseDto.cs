@@ -1,6 +1,6 @@
 ﻿using OceansInFlame.Library.Structures;
 
-namespace OceansInFlame.Orchestration.API.DTOs
+namespace OceansInFlame.Library.DTOs
 {
     public class AccountCreationResponseDto
     {
@@ -9,8 +9,8 @@ namespace OceansInFlame.Orchestration.API.DTOs
         public AccountResponseDto? Data { get; set; }
 
 
-        public AccountCreationResponseDto(bool success, string error) 
-        { 
+        public AccountCreationResponseDto(bool success, string error)
+        {
             Success = success;
             ErrorMessage = error;
         }

@@ -1,6 +1,6 @@
 ﻿using OceansInFlame.Library.Structures;
 
-namespace OceansInFlame.Orchestration.API.DTOs
+namespace OceansInFlame.Library.DTOs
 {
     public class AccountResponseDto
     {
